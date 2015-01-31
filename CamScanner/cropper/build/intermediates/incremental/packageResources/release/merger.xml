@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet config="main"><source path="H:\android_studio_work_space\CamScanner\cropper\res"><file name="crop_image_view" path="H:\android_studio_work_space\CamScanner\cropper\res\layout\crop_image_view.xml" qualifiers="" type="layout"/><file path="H:\android_studio_work_space\CamScanner\cropper\res\values\attrs.xml" qualifiers=""><declare-styleable name="CropImageView">
+        <attr name="guidelines">
+            <enum name="on" value="2"/>
+            <enum name="onTouch" value="1"/>
+            <enum name="off" value="0"/>
+        </attr>
+        <attr format="boolean" name="fixAspectRatio"/>
+        <attr format="integer" name="aspectRatioX"/>
+        <attr format="integer" name="aspectRatioY"/>
+        <attr format="reference" name="imageResource"/>
+    </declare-styleable></file><file path="H:\android_studio_work_space\CamScanner\cropper\res\values\colors.xml" qualifiers=""><color name="black_translucent">#50000000</color></file><file path="H:\android_studio_work_space\CamScanner\cropper\res\values\strings.xml" qualifiers=""><string name="app_name">Cropper</string></file><file path="H:\android_studio_work_space\CamScanner\cropper\res\values\styles.xml" qualifiers=""><style name="AppBaseTheme" parent="android:Theme.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style><style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style></file><file path="H:\android_studio_work_space\CamScanner\cropper\res\values-v11\styles.xml" qualifiers="v11"><style name="AppBaseTheme" parent="android:Theme.Holo.Light">
+        <!-- API 11 theme customizations can go here. -->
+    </style></file><file path="H:\android_studio_work_space\CamScanner\cropper\res\values-v14\styles.xml" qualifiers="v14"><style name="AppBaseTheme" parent="android:Theme.Holo.Light.DarkActionBar">
+        <!-- API 14 theme customizations can go here. -->
+    </style></file></source><source path="H:\android_studio_work_space\CamScanner\cropper\build\generated\res\rs\release"/><source path="H:\android_studio_work_space\CamScanner\cropper\build\generated\res\generated\release"/></dataSet><dataSet config="release"><source path="H:\android_studio_work_space\CamScanner\cropper\src\release\res"/></dataSet><mergedItems><configuration qualifiers=""><declare-styleable name="CropImageView"><attr name="guidelines"><enum name="on" value="2"/><enum name="onTouch" value="1"/><enum name="off" value="0"/></attr><attr format="boolean" name="fixAspectRatio"/><attr format="integer" name="aspectRatioX"/><attr format="integer" name="aspectRatioY"/><attr format="reference" name="imageResource"/></declare-styleable></configuration></mergedItems></merger>

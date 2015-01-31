@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginBottom="10dp">
+
+        <Button
+            android:id="@+id/pdfBt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Pdf"
+            android:padding="5dp"
+            android:layout_gravity="center" />
+    </LinearLayout>
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@drawable/view_divider"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="3"
+        android:background="@color/list_background_pressed">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:gravity="center">
+
+            <ImageButton
+                android:id="@+id/editBt"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:theme="@android:style/Theme"
+                android:src="@drawable/ic_edit"
+                android:background="@drawable/button_selector"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:gravity="center">
+
+            <ImageButton
+                android:id="@+id/cameraBt"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:theme="@android:style/Theme"
+                android:src="@drawable/ic_capture"
+                android:background="@drawable/button_selector"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_weight="1"
+            android:gravity="center">
+
+            <ImageButton
+                android:id="@+id/galleryBt"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:theme="@android:style/Theme"
+                android:src="@drawable/ic_gallery"
+                android:background="@drawable/button_selector"/>
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <HorizontalScrollView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/list_background_pressed">
+
+        <LinearLayout
+            android:id="@+id/ll_img_edit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:visibility="gone">
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:theme="@android:style/Theme"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/ic_setting"/>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:theme="@android:style/Theme"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/ic_setting" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:theme="@android:style/Theme"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/ic_setting"/>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:theme="@android:style/Theme"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/ic_setting"/>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:theme="@android:style/Theme"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/ic_setting"/>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:theme="@android:style/Theme"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/ic_setting"/>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:theme="@android:style/Theme"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/ic_setting"/>
+
+        </LinearLayout>
+    </HorizontalScrollView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="vertical"
+        android:layout_weight="1"
+        android:gravity="center">
+
+        <ImageView
+            android:id="@+id/editImage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="gone"/>
+
+        <com.edmodo.cropper.CropImageView
+            xmlns:custom="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/CropImageView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            custom:guidelines="onTouch"
+            custom:aspectRatioX="10"
+            custom:aspectRatioY="10"/>
+        </LinearLayout>
+
+
+
+        <LinearLayout
+            android:id="@+id/ll_crop"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:background="@color/list_background_pressed"
+            android:gravity="center_horizontal">
+
+            <ImageButton
+                android:id="@+id/closeBt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:theme="@android:style/Theme"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:src="@drawable/ic_close"
+                android:background="@drawable/button_selector"/>
+
+            <ImageButton
+                android:id="@+id/rotateLeftBt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:theme="@android:style/Theme"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:src="@drawable/ic_rotate_left"
+                android:background="@drawable/button_selector"/>
+
+            <ImageButton
+                android:id="@+id/rotateRightBt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:theme="@android:style/Theme"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:src="@drawable/ic_rotate_right"
+                android:background="@drawable/button_selector"/>
+
+            <ImageButton
+                android:id="@+id/cropBt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:theme="@android:style/Theme"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:src="@drawable/ic_crop"
+                android:background="@drawable/button_selector"/>
+
+
+        </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_cropped"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="@color/list_background_pressed"
+        android:gravity="center_horizontal"
+        android:visibility="gone">
+
+        <ImageButton
+            android:id="@+id/revertBt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:theme="@android:style/Theme"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:src="@drawable/ic_close"
+            android:background="@drawable/button_selector"/>
+
+        <ImageButton
+            android:id="@+id/rotateLeftButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:theme="@android:style/Theme"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:src="@drawable/ic_rotate_left"
+            android:background="@drawable/button_selector"/>
+
+        <ImageButton
+            android:id="@+id/rotateRightButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:theme="@android:style/Theme"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:src="@drawable/ic_rotate_right"
+            android:background="@drawable/button_selector"/>
+
+        <ImageButton
+            android:id="@+id/tuningButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:theme="@android:style/Theme"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:src="@drawable/ic_tune"
+            android:background="@drawable/button_selector"/>
+
+        <ImageButton
+            android:id="@+id/accept"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:theme="@android:style/Theme"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:src="@drawable/ic_accept"
+            android:background="@drawable/button_selector"/>
+
+
+    </LinearLayout>
+</LinearLayout>

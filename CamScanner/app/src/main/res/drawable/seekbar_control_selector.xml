@@ -1,0 +1,21 @@
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <!--<item android:state_enabled="false" android:drawable="@drawable/scrubber_control_off_mtrl_alpha" />-->
+    <!--<item android:state_pressed="true" android:drawable="@drawable/scrubber_control_on_pressed_mtrl_alpha" />-->
+    <!--<item android:state_selected="true" android:drawable="@drawable/scrubber_control_off_pressed_mtrl_alpha" />-->
+    <!--<item android:drawable="@drawable/scrubber_control_on_mtrl_alpha" />-->
+
+    <item android:state_pressed="true"
+        android:state_window_focused="true"
+        android:drawable="@drawable/scrubber_control_off_mtrl_alpha" />
+
+    <item android:state_focused="true"
+        android:state_window_focused="true"
+        android:drawable="@drawable/scrubber_control_off_mtrl_alpha" />
+
+    <item android:state_selected="true"
+        android:state_window_focused="true"
+        android:drawable="@drawable/scrubber_control_off_mtrl_alpha" />
+
+    <item android:drawable="@drawable/scrubber_control_on_mtrl_alpha" />
+
+</selector>

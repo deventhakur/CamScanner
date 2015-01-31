@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Cam Scanner</string>
+    <string name="action_settings">Settings</string>
+    <string name="drawer_open">Slider Menu Opened</string>
+    <string name="drawer_close">Slider Menu Closed</string>
+
+    <!--Drawer Menu Items -->
+    <string-array name="drawer_items">
+        <item >My Doc</item>
+        <item >Tags</item>
+        <item >Settings</item>
+        <item >Help</item>
+        <item >About</item>
+        <item >Exit</item>
+    </string-array>
+
+    <!--Drawer List Item Icons -->
+    <array name="drawer_icons">
+        <item>@drawable/ic_mydoc</item>
+        <item>@drawable/ic_tag</item>
+        <item>@drawable/ic_setting</item>
+        <item>@drawable/ic_help</item>
+        <item>@drawable/ic_about</item>
+        <item>@drawable/ic_close</item>
+    </array>
+
+    <!-- Content Description -->
+    <string name="list_item_icon">Item Icon</string>
+
+</resources>

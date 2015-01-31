@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet config="debug"><source path="H:\android_studio_work_space\CamScanner\cropper\build\intermediates\bundles\debug\res"><file name="crop_image_view" path="H:\android_studio_work_space\CamScanner\cropper\build\intermediates\bundles\debug\res\layout\crop_image_view.xml" qualifiers="" type="layout"/><file path="H:\android_studio_work_space\CamScanner\cropper\build\intermediates\bundles\debug\res\values\values.xml" qualifiers=""><color name="black_translucent">#50000000</color><style name="AppBaseTheme" parent="android:Theme.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style><declare-styleable name="CropImageView"><attr name="guidelines"><enum name="on" value="2"/><enum name="onTouch" value="1"/><enum name="off" value="0"/></attr><attr format="boolean" name="fixAspectRatio"/><attr format="integer" name="aspectRatioX"/><attr format="integer" name="aspectRatioY"/><attr format="reference" name="imageResource"/></declare-styleable><string name="app_name">Cropper</string><style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style></file><file path="H:\android_studio_work_space\CamScanner\cropper\build\intermediates\bundles\debug\res\values-v11\values.xml" qualifiers="v11"><style name="AppBaseTheme" parent="android:Theme.Holo.Light">
+        <!-- API 11 theme customizations can go here. -->
+    </style></file><file path="H:\android_studio_work_space\CamScanner\cropper\build\intermediates\bundles\debug\res\values-v14\values.xml" qualifiers="v14"><style name="AppBaseTheme" parent="android:Theme.Holo.Light.DarkActionBar">
+        <!-- API 14 theme customizations can go here. -->
+    </style></file></source></dataSet><dataSet config="main"><source path="H:\android_studio_work_space\CamScanner\cropper\src\androidTest\res"/><source path="H:\android_studio_work_space\CamScanner\cropper\build\generated\res\rs\test\debug"/><source path="H:\android_studio_work_space\CamScanner\cropper\build\generated\res\generated\test\debug"/></dataSet><mergedItems><configuration qualifiers=""><declare-styleable name="CropImageView"><attr name="guidelines"><enum name="on" value="2"/><enum name="onTouch" value="1"/><enum name="off" value="0"/></attr><attr format="boolean" name="fixAspectRatio"/><attr format="integer" name="aspectRatioX"/><attr format="integer" name="aspectRatioY"/><attr format="reference" name="imageResource"/></declare-styleable></configuration></mergedItems></merger>
